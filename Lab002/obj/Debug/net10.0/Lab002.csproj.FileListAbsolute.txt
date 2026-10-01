@@ -1,0 +1,16 @@
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\bin\Debug\net10.0\Lab002.exe
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\bin\Debug\net10.0\Lab002.deps.json
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\bin\Debug\net10.0\Lab002.runtimeconfig.json
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\bin\Debug\net10.0\Lab002.dll
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\bin\Debug\net10.0\Lab002.pdb
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\Lab002.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\Lab002.AssemblyInfoInputs.cache
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\Lab002.AssemblyInfo.cs
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\Lab002.csproj.CoreCompileInputs.cache
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\Lab002.sourcelink.json
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\Lab002.dll
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\refint\Lab002.dll
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\Lab002.pdb
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\Lab002.genruntimeconfig.cache
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\ref\Lab002.dll
+C:\Users\gleb5\source\repos\BakhmetievHlib724a\Lab002\obj\Debug\net10.0\Lab002.csproj.Up2Date
