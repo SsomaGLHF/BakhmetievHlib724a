@@ -1,0 +1,1 @@
+Помилка: Некоректний рядок 2 у файлі 'logs/bad.csv': could not convert string to float: 'abc'

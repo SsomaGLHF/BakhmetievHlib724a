@@ -1,0 +1,15 @@
+C:\Users\gleb5\source\repos\LabWork9\bin\Debug\net10.0\LabWork9.exe
+C:\Users\gleb5\source\repos\LabWork9\bin\Debug\net10.0\LabWork9.deps.json
+C:\Users\gleb5\source\repos\LabWork9\bin\Debug\net10.0\LabWork9.runtimeconfig.json
+C:\Users\gleb5\source\repos\LabWork9\bin\Debug\net10.0\LabWork9.dll
+C:\Users\gleb5\source\repos\LabWork9\bin\Debug\net10.0\LabWork9.pdb
+C:\Users\gleb5\source\repos\LabWork9\obj\Debug\net10.0\LabWork9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gleb5\source\repos\LabWork9\obj\Debug\net10.0\LabWork9.AssemblyInfoInputs.cache
+C:\Users\gleb5\source\repos\LabWork9\obj\Debug\net10.0\LabWork9.AssemblyInfo.cs
+C:\Users\gleb5\source\repos\LabWork9\obj\Debug\net10.0\LabWork9.csproj.CoreCompileInputs.cache
+C:\Users\gleb5\source\repos\LabWork9\obj\Debug\net10.0\LabWork9.dll
+C:\Users\gleb5\source\repos\LabWork9\obj\Debug\net10.0\refint\LabWork9.dll
+C:\Users\gleb5\source\repos\LabWork9\obj\Debug\net10.0\LabWork9.pdb
+C:\Users\gleb5\source\repos\LabWork9\obj\Debug\net10.0\LabWork9.genruntimeconfig.cache
+C:\Users\gleb5\source\repos\LabWork9\obj\Debug\net10.0\ref\LabWork9.dll
+C:\Users\gleb5\source\repos\LabWork9\obj\Debug\net10.0\LabWork9.csproj.Up2Date

@@ -1,0 +1,15 @@
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\bin\Debug\net10.0\LabWork6.exe
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\bin\Debug\net10.0\LabWork6.deps.json
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\bin\Debug\net10.0\LabWork6.runtimeconfig.json
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\bin\Debug\net10.0\LabWork6.dll
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\bin\Debug\net10.0\LabWork6.pdb
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\obj\Debug\net10.0\LabWork6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\obj\Debug\net10.0\LabWork6.AssemblyInfoInputs.cache
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\obj\Debug\net10.0\LabWork6.AssemblyInfo.cs
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\obj\Debug\net10.0\LabWork6.csproj.CoreCompileInputs.cache
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\obj\Debug\net10.0\LabWork6.dll
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\obj\Debug\net10.0\refint\LabWork6.dll
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\obj\Debug\net10.0\LabWork6.pdb
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\obj\Debug\net10.0\LabWork6.genruntimeconfig.cache
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\obj\Debug\net10.0\ref\LabWork6.dll
+C:\Users\gleb5\source\repos\LabWork6\LabWork6\obj\Debug\net10.0\LabWork6.csproj.Up2Date
