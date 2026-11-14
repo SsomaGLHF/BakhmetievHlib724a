@@ -1,0 +1,57 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C526FFE5-DE67-401D-A1DB-CF861879D58D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2BC50CD6-5E00-4784-8033-EE05E1ACDE49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandmadeMarketplace.Domain", "src\HandmadeMarketplace.Domain\HandmadeMarketplace.Domain.csproj", "{0AECEDC3-DCB1-44C4-8B45-CE7A1E2EA34B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandmadeMarketplace.Application", "src\HandmadeMarketplace.Application\HandmadeMarketplace.Application.csproj", "{65DAE2D1-5A94-4676-8D5A-9834941E3DBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandmadeMarketplace.Infrastructure", "src\HandmadeMarketplace.Infrastructure\HandmadeMarketplace.Infrastructure.csproj", "{C402A2DE-202A-40A9-9B9E-43D55534BF17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandmadeMarketplace.API", "src\HandmadeMarketplace.API\HandmadeMarketplace.API.csproj", "{DEFF3C2B-6D46-444E-B6A6-2365EC5C8A11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandmadeMarketplace.Tests", "tests\HandmadeMarketplace.Tests\HandmadeMarketplace.Tests.csproj", "{1CA7262F-4451-4487-B10A-2CB672D4D4E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AECEDC3-DCB1-44C4-8B45-CE7A1E2EA34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AECEDC3-DCB1-44C4-8B45-CE7A1E2EA34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AECEDC3-DCB1-44C4-8B45-CE7A1E2EA34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AECEDC3-DCB1-44C4-8B45-CE7A1E2EA34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DAE2D1-5A94-4676-8D5A-9834941E3DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DAE2D1-5A94-4676-8D5A-9834941E3DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DAE2D1-5A94-4676-8D5A-9834941E3DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DAE2D1-5A94-4676-8D5A-9834941E3DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C402A2DE-202A-40A9-9B9E-43D55534BF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C402A2DE-202A-40A9-9B9E-43D55534BF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C402A2DE-202A-40A9-9B9E-43D55534BF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C402A2DE-202A-40A9-9B9E-43D55534BF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFF3C2B-6D46-444E-B6A6-2365EC5C8A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFF3C2B-6D46-444E-B6A6-2365EC5C8A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFF3C2B-6D46-444E-B6A6-2365EC5C8A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFF3C2B-6D46-444E-B6A6-2365EC5C8A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA7262F-4451-4487-B10A-2CB672D4D4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA7262F-4451-4487-B10A-2CB672D4D4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA7262F-4451-4487-B10A-2CB672D4D4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA7262F-4451-4487-B10A-2CB672D4D4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AECEDC3-DCB1-44C4-8B45-CE7A1E2EA34B} = {C526FFE5-DE67-401D-A1DB-CF861879D58D}
+		{65DAE2D1-5A94-4676-8D5A-9834941E3DBD} = {C526FFE5-DE67-401D-A1DB-CF861879D58D}
+		{C402A2DE-202A-40A9-9B9E-43D55534BF17} = {C526FFE5-DE67-401D-A1DB-CF861879D58D}
+		{DEFF3C2B-6D46-444E-B6A6-2365EC5C8A11} = {C526FFE5-DE67-401D-A1DB-CF861879D58D}
+		{1CA7262F-4451-4487-B10A-2CB672D4D4E0} = {2BC50CD6-5E00-4784-8033-EE05E1ACDE49}
+	EndGlobalSection
+EndGlobal
