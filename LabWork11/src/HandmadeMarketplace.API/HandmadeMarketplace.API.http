@@ -1,0 +1,97 @@
+@host = http://localhost:5182
+
+### Каталог: пошук виробів під замовлення, сортування за ціною
+GET {{host}}/api/products?onlyCustomizable=true&sortBy=price_asc
+
+### Виріб за id
+GET {{host}}/api/products/1
+
+### Майстри
+GET {{host}}/api/users/artisans
+
+### Оформити замовлення (Ірина, id=3)
+POST {{host}}/api/orders
+Content-Type: application/json
+
+{
+  "buyerId": 3,
+  "shippingAddress": "м. Київ, вул. Хрещатик, 1, кв. 5",
+  "items": [
+    { "productId": 1, "quantity": 1 },
+    { "productId": 3, "quantity": 2 }
+  ]
+}
+
+### Оплата -> відправка -> доставка
+PATCH {{host}}/api/orders/1/status
+Content-Type: application/json
+
+{ "status": "Paid" }
+
+###
+PATCH {{host}}/api/orders/1/status
+Content-Type: application/json
+
+{ "status": "Shipped" }
+
+###
+PATCH {{host}}/api/orders/1/status
+Content-Type: application/json
+
+{ "status": "Delivered" }
+
+### Відгук після доставки
+POST {{host}}/api/products/1/reviews
+Content-Type: application/json
+
+{ "buyerId": 3, "rating": 5, "comment": "Чудовий глечик, розпис дуже акуратний!" }
+
+### Кастомне замовлення: Тарас (id=4) -> Олена (id=1)
+POST {{host}}/api/custom-orders
+Content-Type: application/json
+
+{
+  "buyerId": 4,
+  "artisanId": 1,
+  "baseProductId": 1,
+  "description": "Хочу такий самий глечик, але на 2 літри і з іменем \"Марія\" на боці.",
+  "budget": 1500
+}
+
+### Майстер пропонує ціну
+POST {{host}}/api/custom-orders/1/quote
+Content-Type: application/json
+
+{ "artisanId": 1, "price": 1400, "estimatedDays": 14, "comment": "Зроблю за 2 тижні" }
+
+### Покупець погоджується
+POST {{host}}/api/custom-orders/1/accept
+Content-Type: application/json
+
+{ "userId": 4 }
+
+### Майстер починає роботу
+POST {{host}}/api/custom-orders/1/start
+Content-Type: application/json
+
+{ "userId": 1 }
+
+### ===== ЛР11: зовнішній API НБУ (курси валют) =====
+
+### Курси популярних валют (USD, EUR, PLN, GBP)
+GET {{host}}/api/currency/rates
+
+### Курс конкретної валюти
+GET {{host}}/api/currency/rates/EUR
+
+### Ціна виробу id=2 у доларах
+GET {{host}}/api/currency/products/2?currency=USD
+
+### Каталог з цінами в євро
+GET {{host}}/api/currency/products?currency=EUR
+
+### Помилка: валюти не існує -> 404
+GET {{host}}/api/currency/rates/XYZ
+
+### Помилка: некоректний код валюти -> 400
+GET {{host}}/api/currency/rates/US1
